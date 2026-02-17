@@ -1,13 +1,125 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Maslow4_Crosshairs_for_centering",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Maslow4_Crosshairs_for_centering",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 19.05,
+      "currentEquation": "19.05"
+    },
+    {
+      "name": "SledCenterHole",
+      "ioValue": 10
+    },
+    {
+      "name": "DustCoverHole",
+      "ioValue": 10
+    },
+    {
+      "name": "CenterHole",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.15217391304347827,
+      "uniqueID": "id-4",
+      "name": "WoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.21217391304347827,
+      "uniqueID": "id-7",
+      "name": "SledCenterHole"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.27217391304347827,
+      "uniqueID": "id-10",
+      "name": "DustCoverHole"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.14635416666666667,
+      "y": 0.22463768115942032,
+      "uniqueID": "id-13",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.14635416666666667,
+      "y": 0.3429951690821256,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.33217391304347826,
+      "uniqueID": "id-19",
+      "name": "CenterHole"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.14895833333333333,
+      "y": 0.4758454106280194,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-7",
+      "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-10",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-19",
+      "ap2ID": "id-22"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
