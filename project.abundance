@@ -12,23 +12,20 @@
     },
     {
       "name": "SledCenterHole",
-      "ioValue": 32,
-      "currentEquation": "32"
+      "ioValue": 32
     },
     {
       "name": "DustCoverHole",
-      "ioValue": 45,
-      "currentEquation": "45"
+      "ioValue": 45
     },
     {
       "name": "CenterHole",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 15
     },
     {
       "name": "BitDiameter",
-      "ioValue": 1.5,
-      "currentEquation": "1.5"
+      "ioValue": 2,
+      "currentEquation": "2"
     },
     {
       "name": "RodDiameter",
@@ -36,13 +33,11 @@
     },
     {
       "name": "BoltHeadDiameter",
-      "ioValue": 6.6,
-      "currentEquation": "6.6"
+      "ioValue": 6.6
     },
     {
       "name": "BoltHeadHeight",
-      "ioValue": 4,
-      "currentEquation": "4"
+      "ioValue": 4
     },
     {
       "name": "MirrorMount",
@@ -70,21 +65,21 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.19,
+      "y": 0.13,
       "uniqueID": "id-4",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.304,
+      "y": 0.20800000000000002,
       "uniqueID": "id-7",
       "name": "SledCenterHole"
     },
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.418,
+      "y": 0.28600000000000003,
       "uniqueID": "id-10",
       "name": "DustCoverHole"
     },
@@ -115,7 +110,7 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.532,
+      "y": 0.36400000000000005,
       "uniqueID": "id-19",
       "name": "CenterHole"
     },
@@ -166,14 +161,14 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.646,
+      "y": 0.44200000000000006,
       "uniqueID": "id-41",
       "name": "BitDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.76,
+      "y": 0.52,
       "uniqueID": "id-44",
       "name": "RodDiameter"
     },
@@ -488,14 +483,14 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.874,
+      "y": 0.598,
       "uniqueID": "id-134",
       "name": "BoltHeadDiameter"
     },
     {
       "atomType": "Circle",
-      "x": 0.45625000000000004,
-      "y": 0.6811594202898551,
+      "x": 0.4505686789151356,
+      "y": 0.6716867469879517,
       "uniqueID": "id-137",
       "ioValues": [
         {
@@ -554,8 +549,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.503125,
-      "y": 0.7801932367149759,
+      "x": 0.5065616797900263,
+      "y": 0.7680722891566265,
       "uniqueID": "id-140",
       "ioValues": [
         {
@@ -578,8 +573,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5010416666666666,
-      "y": 0.8840579710144928,
+      "x": 0.5013123359580053,
+      "y": 0.8885542168674698,
       "uniqueID": "id-141",
       "ioValues": [
         {
@@ -659,7 +654,7 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.95,
+      "y": 0.6759999999999999,
       "uniqueID": "id-178",
       "name": "BoltHeadHeight"
     },
@@ -730,14 +725,14 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.95,
+      "y": 0.7539999999999999,
       "uniqueID": "id-197",
       "name": "MirrorMount"
     },
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.95,
+      "y": 0.8319999999999999,
       "uniqueID": "id-200",
       "name": "MirrorAngle"
     },
@@ -947,8 +942,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
@@ -1048,8 +1042,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "Sheet Height",
@@ -1103,8 +1096,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.9203849518810149,
-      "y": 0.4939759036144578,
+      "x": 0.9256342957130359,
+      "y": 0.4759036144578313,
       "uniqueID": "id-290",
       "ioValues": [
         {
@@ -1113,7 +1106,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 1.5
+          "ioValue": 2
         },
         {
           "name": "Passes",
