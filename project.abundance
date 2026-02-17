@@ -1042,7 +1042,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200
+          "ioValue": 200,
+          "currentEquation": "200"
         },
         {
           "name": "Sheet Height",
