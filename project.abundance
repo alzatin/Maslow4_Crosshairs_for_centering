@@ -12,14 +12,23 @@
     },
     {
       "name": "SledCenterHole",
-      "ioValue": 10
+      "ioValue": 32
     },
     {
       "name": "DustCoverHole",
-      "ioValue": 10
+      "ioValue": 45
     },
     {
       "name": "CenterHole",
+      "ioValue": 15,
+      "currentEquation": "15"
+    },
+    {
+      "name": "BitDiameter",
+      "ioValue": 3.175
+    },
+    {
+      "name": "RodDiameter",
       "ioValue": 10
     }
   ],
@@ -60,13 +69,13 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.14635416666666667,
-      "y": 0.22463768115942032,
+      "x": 0.14583333333333334,
+      "y": 0.214975845410628,
       "uniqueID": "id-13",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 32
         }
       ]
     },
@@ -78,7 +87,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 45
         }
       ]
     },
@@ -97,12 +106,100 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 15
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3411458333333333,
+      "y": 0.20531400966183577,
+      "uniqueID": "id-25",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 19.05
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.22812500000000002,
+      "y": 0.2391304347826087,
+      "uniqueID": "id-29",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.2265625,
+      "y": 0.37681159420289856,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.34062499999999996,
+      "y": 0.3647342995169082,
+      "uniqueID": "id-37",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 19.05
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.39217391304347826,
+      "uniqueID": "id-41",
+      "name": "BitDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.45410628019323673,
+      "uniqueID": "id-44",
+      "name": "RodDiameter"
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-4",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-4",
+      "ap2ID": "id-37"
+    },
     {
       "ap2Name": "diameter",
       "ap1ID": "id-7",
@@ -114,9 +211,39 @@
       "ap2ID": "id-16"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-13",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-16",
+      "ap2ID": "id-33"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-19",
       "ap2ID": "id-22"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-22",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-22",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-33",
+      "ap2ID": "id-37"
     }
   ],
   "unitsKey": "MM",
