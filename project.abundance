@@ -303,8 +303,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.07135416666666666,
-      "y": 0.8695652173913044,
+      "x": 0.07552083333333333,
+      "y": 0.8719806763285025,
       "uniqueID": "id-78",
       "name": "-w",
       "ioValues": [
@@ -695,8 +695,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.4817708333333333,
-      "y": 0.09178743961352656,
+      "x": 0.8104166666666667,
+      "y": 0.11835748792270533,
       "uniqueID": "id-189",
       "ioValues": [
         {
@@ -711,8 +711,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.734375,
-      "y": 0.782608695652174,
+      "x": 0.7333333333333334,
+      "y": 0.7560386473429951,
       "uniqueID": "id-193",
       "ioValues": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.78125,
+      "x": 0.7984375,
       "y": 0.5217391304347826,
       "uniqueID": "id-251",
       "ioValues": [
@@ -935,8 +935,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.8296875,
-      "y": 0.536231884057971,
+      "x": 0.8531249999999999,
+      "y": 0.5265700483091788,
       "uniqueID": "id-256",
       "ioValues": [
         {
@@ -960,8 +960,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.9041666666666666,
-      "y": 0.5241545893719807,
+      "x": 0.9083333333333333,
+      "y": 0.536231884057971,
       "uniqueID": "id-262",
       "ioValues": [
         {
@@ -984,8 +984,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.9052083333333334,
-      "y": 0.6400966183574879,
+      "x": 0.9109375,
+      "y": 0.644927536231884,
       "uniqueID": "id-268",
       "name": "x/2 + w/2",
       "ioValues": [
@@ -1002,8 +1002,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.9072916666666667,
-      "y": 0.7415458937198068,
+      "x": 0.9125000000000001,
+      "y": 0.7463768115942029,
       "uniqueID": "id-273",
       "name": "2*w - bh",
       "ioValues": [
@@ -1020,8 +1020,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.5583333333333333,
-      "y": 0.0966183574879227,
+      "x": 0.8531249999999999,
+      "y": 0.11352657004830918,
       "uniqueID": "id-281",
       "name": "README",
       "ioValues": [
@@ -1035,8 +1035,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.7859375,
-      "y": 0.24879227053140096,
+      "x": 0.9098958333333332,
+      "y": 0.25362318840579706,
       "uniqueID": "id-283",
       "name": "Cut Layout",
       "ioValues": [
@@ -1101,8 +1101,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.86875,
-      "y": 0.3623188405797102,
+      "x": 0.9682291666666668,
+      "y": 0.4033816425120773,
       "uniqueID": "id-290",
       "ioValues": [
         {
@@ -1111,7 +1111,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 3.175
         },
         {
           "name": "Passes",
@@ -1136,8 +1136,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8713541666666667,
-      "y": 0.2222222222222222,
+      "x": 0.9692708333333333,
+      "y": 0.2681159420289855,
       "uniqueID": "id-298",
       "ioValues": [
         {
@@ -1146,8 +1146,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -1159,7 +1159,7 @@
           "currentEquation": "Maslow4_Crosshairs_for_centering"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Maslow4_Crosshairs_for_centering"
@@ -1265,6 +1265,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-33",
       "ap2ID": "id-94"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-41",
+      "ap2ID": "id-290"
     },
     {
       "ap2Name": "diameter",
