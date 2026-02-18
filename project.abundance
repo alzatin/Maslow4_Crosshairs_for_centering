@@ -20,13 +20,11 @@
     },
     {
       "name": "CenterHole",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 15
     },
     {
       "name": "BitDiameter",
-      "ioValue": 1,
-      "currentEquation": "1"
+      "ioValue": 1
     },
     {
       "name": "RodDiameter",
@@ -187,8 +185,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.1984375,
-      "y": 0.5797101449275363,
+      "x": 0.20305052430886558,
+      "y": 0.569277108433735,
       "uniqueID": "id-50",
       "ioValues": [
         {
@@ -355,8 +353,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.22239583333333335,
-      "y": 0.30676328502415456,
+      "x": 0.21830314585319352,
+      "y": 0.29819277108433734,
       "uniqueID": "id-94",
       "ioValues": [
         {
@@ -677,8 +675,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4026041666666667,
-      "y": 0.2584541062801932,
+      "x": 0.39752144899904673,
+      "y": 0.2710843373493976,
       "uniqueID": "id-185",
       "ioValues": [
         {
@@ -943,8 +941,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
@@ -1044,8 +1041,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "Sheet Height",
