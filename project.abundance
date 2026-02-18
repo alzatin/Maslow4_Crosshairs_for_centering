@@ -20,11 +20,13 @@
     },
     {
       "name": "CenterHole",
-      "ioValue": 15
+      "ioValue": 15,
+      "currentEquation": "15"
     },
     {
       "name": "BitDiameter",
-      "ioValue": 2
+      "ioValue": 1,
+      "currentEquation": "1"
     },
     {
       "name": "RodDiameter",
@@ -524,8 +526,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5041666666666667,
-      "y": 0.6642512077294687,
+      "x": 0.5065616797900263,
+      "y": 0.6746987951807228,
       "uniqueID": "id-139",
       "ioValues": [
         {
@@ -659,8 +661,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5942708333333333,
-      "y": 0.7318840579710144,
+      "x": 0.5975503062117236,
+      "y": 0.7379518072289156,
       "uniqueID": "id-181",
       "ioValues": [
         {
@@ -691,8 +693,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8104166666666667,
-      "y": 0.11835748792270533,
+      "x": 0.7515310586176728,
+      "y": 0.18373493975903615,
       "uniqueID": "id-189",
       "ioValues": [
         {
@@ -915,8 +917,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7281746031746031,
-      "y": 0.4849397590361446,
+      "x": 0.7296587926509187,
+      "y": 0.5,
       "uniqueID": "id-251",
       "ioValues": [
         {
@@ -941,7 +943,8 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "y-axis degrees",
@@ -955,8 +958,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.8002645502645502,
-      "y": 0.5331325301204819,
+      "x": 0.8075240594925635,
+      "y": 0.5572289156626505,
       "uniqueID": "id-262",
       "ioValues": [
         {
@@ -1030,8 +1033,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8521434820647419,
-      "y": 0.3253012048192771,
+      "x": 0.8582677165354331,
+      "y": 0.31626506024096385,
       "uniqueID": "id-283",
       "name": "Cut Layout",
       "ioValues": [
@@ -1041,7 +1044,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200
+          "ioValue": 200,
+          "currentEquation": "200"
         },
         {
           "name": "Sheet Height",
@@ -1095,8 +1099,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.9256342957130359,
-      "y": 0.4759036144578313,
+      "x": 0.9335083114610673,
+      "y": 0.4969879518072289,
       "uniqueID": "id-290",
       "ioValues": [
         {
@@ -1105,7 +1109,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 2
+          "ioValue": 1
         },
         {
           "name": "Passes",
