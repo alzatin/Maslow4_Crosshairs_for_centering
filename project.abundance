@@ -24,8 +24,7 @@
     },
     {
       "name": "BitDiameter",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 2
     },
     {
       "name": "RodDiameter",
@@ -64,22 +63,22 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.13,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-4",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.20800000000000002,
+      "x": 0.0264,
+      "y": 0.256,
       "uniqueID": "id-7",
       "name": "SledCenterHole"
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.28600000000000003,
+      "x": 0.0264,
+      "y": 0.352,
       "uniqueID": "id-10",
       "name": "DustCoverHole"
     },
@@ -109,8 +108,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.36400000000000005,
+      "x": 0.0264,
+      "y": 0.44799999999999995,
       "uniqueID": "id-19",
       "name": "CenterHole"
     },
@@ -160,15 +159,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.44200000000000006,
+      "x": 0.0264,
+      "y": 0.5439999999999999,
       "uniqueID": "id-41",
       "name": "BitDiameter"
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.52,
+      "x": 0.0264,
+      "y": 0.6399999999999999,
       "uniqueID": "id-44",
       "name": "RodDiameter"
     },
@@ -482,8 +481,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.598,
+      "x": 0.0264,
+      "y": 0.7359999999999999,
       "uniqueID": "id-134",
       "name": "BoltHeadDiameter"
     },
@@ -653,8 +652,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.6759999999999999,
+      "x": 0.0264,
+      "y": 0.8319999999999999,
       "uniqueID": "id-178",
       "name": "BoltHeadHeight"
     },
@@ -724,15 +723,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.7539999999999999,
+      "x": 0.0264,
+      "y": 0.9279999999999998,
       "uniqueID": "id-197",
       "name": "MirrorMount"
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.8319999999999999,
+      "x": 0.0264,
+      "y": 0.95,
       "uniqueID": "id-200",
       "name": "MirrorAngle"
     },
@@ -1042,8 +1041,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "Sheet Height",
