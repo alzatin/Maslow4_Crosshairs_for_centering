@@ -24,7 +24,8 @@
     },
     {
       "name": "BitDiameter",
-      "ioValue": 1
+      "ioValue": 2,
+      "currentEquation": "2"
     },
     {
       "name": "RodDiameter",
@@ -1105,7 +1106,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 1
+          "ioValue": 2
         },
         {
           "name": "Passes",
